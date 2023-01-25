@@ -8,5 +8,5 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - 3001:3001
+      - 3006:80
     command: npm start
